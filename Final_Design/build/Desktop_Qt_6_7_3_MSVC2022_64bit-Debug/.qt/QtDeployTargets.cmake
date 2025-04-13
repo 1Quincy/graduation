@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_QXlsx_FILE D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MSVC2022_64bit-Debug/QXlsx/QXlsx/QXlsxQt6.lib)
+set(__QT_DEPLOY_TARGET_QXlsx_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_employee_punch-in_system_FILE D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MSVC2022_64bit-Debug/employee_punch-in_system.exe)
+set(__QT_DEPLOY_TARGET_employee_punch-in_system_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_employee_punch-in_system_RUNTIME_DLLS C:/Qt/6.7.3/msvc2022_64/bin/Qt6Sqld.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6WebEngineWidgetsd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6WebEngineCored.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Quickd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6QmlModelsd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6OpenGLd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6WebChanneld.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Qmld.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Networkd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Positioningd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6PrintSupportd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Widgetsd.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Guid.dll;C:/Qt/6.7.3/msvc2022_64/bin/Qt6Cored.dll)

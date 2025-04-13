@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogFindPwd</class>
+ <widget class="QDialog" name="DialogFindPwd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>密码重置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QDialog {
+        background-color: #f5f5f5;
+        font-family: "Segoe UI";
+        font-size: 14px;
+    }
+    QGroupBox {
+        border: 2px solid #0078d7;
+        border-radius: 8px;
+        margin-top: 10px;
+        padding-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #0078d7;
+    }
+    QLabel {
+        color: #333333;
+    }
+    QLineEdit {
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 14px;
+        min-height: 28px;
+    }
+    QLineEdit:focus {
+        border: 1px solid #0078d7;
+    }
+    QPushButton {
+        background-color: #0078d7;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        min-width: 80px;
+        min-height: 34px;
+        font-size: 14px;
+    }
+    QPushButton:hover {
+        background-color: #005bb5;
+    }
+    QPushButton:pressed {
+        background-color: #004080;
+    }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>15</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>密码重置</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>10</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>15</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="userLabel">
+        <property name="text">
+         <string>账号：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="userLineEdit"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="oldPwdLabel">
+        <property name="text">
+         <string>原密码：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="oldPwdLineEdit">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="newPwdLabel">
+        <property name="text">
+         <string>新密码：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="newPwdLineEdit">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="confirmPwdLabel">
+        <property name="text">
+         <string>确认密码：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="confirmPwdLineEdit">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacerLeft">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BtnOK">
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BtnCancel">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacerRight">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

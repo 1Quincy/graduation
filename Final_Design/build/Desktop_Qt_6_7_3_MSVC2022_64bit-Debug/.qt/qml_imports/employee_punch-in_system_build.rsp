@@ -1,0 +1,9 @@
+-rootPath
+D:/SoftWare/graduate_design/Final_Design
+-cmake-output
+-output-file
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MSVC2022_64bit-Debug/.qt/qml_imports/employee_punch-in_system_build.cmake
+-importPath
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MSVC2022_64bit-Debug
+-importPath
+C:/Qt/6.7.3/msvc2022_64/qml

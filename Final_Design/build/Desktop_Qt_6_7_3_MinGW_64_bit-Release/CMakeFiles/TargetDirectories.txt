@@ -1,0 +1,9 @@
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/employee_punch-in_system.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/install.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/employee_punch-in_system_autogen_timestamp_deps.dir
+D:/SoftWare/graduate_design/Final_Design/build/Desktop_Qt_6_7_3_MinGW_64_bit-Release/CMakeFiles/employee_punch-in_system_autogen.dir

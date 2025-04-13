@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogSignOut</class>
+ <widget class="QDialog" name="DialogSignOut">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>签退</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+QLabel {
+    color: #222222; /* 更深的字体颜色 */
+    font-size: 16px; /* 字体大小 */
+    font-weight: bold; /* 保留加粗 */
+}
+QPushButton {
+    background-color: #f5f5f5;
+    color: #222222; /* 更深的字体颜色 */
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px; /* 字体大小 */
+    font-weight: bold; /* 保留加粗 */
+}
+QPushButton:hover {
+    background-color: #e0e0e0;
+}
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelPhoto">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 2px solid #dddddd; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="labelNo">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>工号：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelName">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>姓名：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelDate">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>签退时间：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelTime">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>签退时间：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="BtnOk">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>签退</string>
+       </property>
+       <property name="icon">
+        <iconset resource="src.qrc">
+         <normaloff>:/icon/ok.png</normaloff>:/icon/ok.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BtnCancel">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight> <!-- 保留加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+       <property name="icon">
+        <iconset resource="src.qrc">
+         <normaloff>:/icon/取消.png</normaloff>:/icon/取消.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogLeave</class>
+ <widget class="QDialog" name="DialogLeave">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>341</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>请假</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+QLabel {
+    color: #222222; /* 更深的字体颜色 */
+    font-size: 16px; /* 进一步增大字体大小 */
+    font-weight: normal; /* 取消加粗，避免模糊 */
+}
+QLineEdit, QDateTimeEdit, QPlainTextEdit {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px; /* 进一步增大字体大小 */
+    color: #222222; /* 更深的字体颜色 */
+}
+QPushButton {
+    background-color: #f5f5f5;
+    color: #222222; /* 更深的字体颜色 */
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px; /* 进一步增大字体大小 */
+    font-weight: normal; /* 取消加粗，避免模糊 */
+}
+QPushButton:hover {
+    background-color: #e0e0e0;
+}
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="labelNo">
+     <property name="font">
+      <font>
+       <family>仿宋</family>
+       <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+       <weight>50</weight> <!-- 取消加粗 -->
+      </font>
+     </property>
+     <property name="text">
+      <string>工号：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="labelName">
+     <property name="font">
+      <font>
+       <family>仿宋</family>
+       <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+       <weight>50</weight> <!-- 取消加粗 -->
+      </font>
+     </property>
+     <property name="text">
+      <string>姓名：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="labelStartTime">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>请假开始时间：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateTimeEdit" name="dateTimeEditStart"/>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="labelEndTime">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>请假结束时间：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateTimeEdit" name="dateTimeEditEnd"/>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="labelDays">
+     <property name="font">
+      <font>
+       <family>仿宋</family>
+       <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+       <weight>50</weight> <!-- 取消加粗 -->
+      </font>
+     </property>
+     <property name="text">
+      <string>请假天数：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="labelReason">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>请假理由：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="plainTextEditReason">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="BtnOk">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>确定</string>
+       </property>
+       <property name="icon">
+        <iconset resource="src.qrc">
+         <normaloff>:/icon/ok.png</normaloff>:/icon/ok.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BtnCancel">
+       <property name="font">
+        <font>
+         <family>仿宋</family>
+         <pointsize>16</pointsize> <!-- 进一步增大字体大小 -->
+         <weight>50</weight> <!-- 取消加粗 -->
+        </font>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+       <property name="icon">
+        <iconset resource="src.qrc">
+         <normaloff>:/icon/取消.png</normaloff>:/icon/取消.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
